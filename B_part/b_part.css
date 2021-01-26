@@ -1,51 +1,54 @@
 body {
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  color: #333;
-  font-weight: 300;
-
-  background-color: #f8f6f0;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+    background-color: #f8f6f0;
 }
 h1 {
-  font-weight: 100;
-  margin: 0px;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #444;
-  color: #fff;
-  text-align: center;
+    font-weight: 100;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
 }
 .question {
-  font-size: 20px;
-  margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 .answers {
-  margin-bottom: 20px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    /* flex-direction: column; */
+}
+.answers-container {
+    display: flex;
+    flex-direction: column;
 }
 .answers label {
-  display: block;
-  margin-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
 }
 button {
-  font-size: 22px;
-  background-color: #279;
-  color: #fff;
-  border: 0px;
-  border-radius: 3px;
-  padding: 20px;
-  cursor: pointer;
-  margin-bottom: 20px;
+    font-size: 22px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    outline: none;
 }
 button:hover {
-  background-color: #38a;
+    background-color: #38a;
 }
 .d-flex {
-  display: flex;
+    display: flex;
 }
 
 input {
-  margin-right: 10px;
+    margin-right: 10px;
 }
