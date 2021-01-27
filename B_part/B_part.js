@@ -46,6 +46,20 @@ async function createQuizzes() {
           
         `;
     }
+    let radioBtnContainer = document.querySelectorAll(
+        ".answers-container .answers"
+    );
+    let radioBtn = document.querySelectorAll(
+        ".answers-container .answers button"
+    );
+    let radioLabel = document.querySelectorAll(
+        ".answers-container .answers button"
+    );
+    radioBtnContainer.forEach(() => {
+        radioBtn.addEventListener("click", () => {
+            console.log(radioLabel.innerHTML);
+        });
+    });
 }
 
 createQuizzes();
