@@ -13,6 +13,7 @@ function filterDiff(arr1, arr2) {
   });
   return result;
 }
+
 let a1 = [1, 2, "a"],
   a2 = [1, 3, "b"];
 
